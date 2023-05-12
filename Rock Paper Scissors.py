@@ -40,7 +40,7 @@ def rps():
         sys.stdout.write(char)
         sys.stdout.flush()
       print("===========================================")
-      rps()
+      quit()
           
 
   #cpu move picker

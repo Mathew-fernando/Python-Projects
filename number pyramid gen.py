@@ -1,4 +1,5 @@
 import keyboard as kb
+from  time import sleep
 
 x = int(input("insert a number: "))
 
@@ -46,3 +47,5 @@ if kb.read_key() != "a":
     program()
 else:
     program()
+
+sleep(60)
